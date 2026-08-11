@@ -1,6 +1,10 @@
+# Homebrew cask template for croc-desktop.
+# release.yml (publish-homebrew job) renders 0.2.1 and 11a41d5e15b9f12a4b12a3af3e1dfb9884a3cd13f4128feb74a6bc21174cbb6f from the
+# tag and the freshly built DMG, then pushes the result to
+# SihanTeng/homebrew-tap. Do not hand-edit versions here.
 cask "croc-desktop" do
-  version "0.2.0"
-  sha256 "a427a99e707064db2ef5d9f380c3d140feff42434ab80513e5bf228cc3f44b72"
+  version "0.2.1"
+  sha256 "11a41d5e15b9f12a4b12a3af3e1dfb9884a3cd13f4128feb74a6bc21174cbb6f"
 
   url "https://github.com/SihanTeng/croc-desktop/releases/download/v#{version}/croc-desktop_v#{version}_darwin-arm64.dmg"
   name "croc-desktop"
