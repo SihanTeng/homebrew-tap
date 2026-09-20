@@ -1,6 +1,6 @@
 cask "kterminal" do
-  version "0.1.0"
-  sha256 "98c1e29e6931f3583d54029a4e3508d7f3c8253959d4880451907ca3afd0ccf9"
+  version "0.1.1"
+  sha256 "0fc88b7f10f00c297cd6562f56c6f12dffa8de8c6609a02898c64f563abf67ff"
 
   url "https://github.com/SihanTeng/KTerminal-releases/releases/download/v#{version}/KTerminal-#{version}-macos-arm64.zip"
   name "KTerminal"
